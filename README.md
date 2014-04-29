@@ -3,7 +3,7 @@
 pairs Brentwood and Nolan
 
 ###User stories
-* As a restaurant owner, I want to add tables to my restaurant, so that our servers can keep track of the bill at each table.
+* ~~As a restaurant owner, I want to add tables to my restaurant, so that our servers can keep track of the bill at each table.~~
 
 * As a restaurant owner, I want to add an item to our menu, so that our servers can note when a table has ordered that item.
 
@@ -13,3 +13,7 @@ pairs Brentwood and Nolan
 
 
 * As a restaurant owner, I want my users to log in, so that hooligans can't mess with our site. Hint: Ember unfortunately doesn't have a standard way to handle authentication, but the most common is to use an auth token in your request headers. This most popular plugin for this approach is Ember.SimpleAuth. They have a nice version that is compatible with Devise, but it requires some modifications to Devise. The README is pretty incomplete, so I opened a pull request with a better walk-through; until it's merged, you can check it out on my fork.
+
+
+###Status
+* As a restaurant owner, I want to add tables to my restaurant, so that our servers can keep track of the bill at each table. --COMPLETE--

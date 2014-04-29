@@ -8,9 +8,10 @@
   <body>
     <script type="text/x-handlebars" data-template-name="tables">
 
-    <section id='table_selection'>
+    <section id="table_selection">
       <header>
         <h1>Ordr</h1>
+        <button {{action "createTable" count}}>Add Table</button>
         <hr>
       </header>
 
@@ -37,5 +38,6 @@
     <script src="js/application.js"></script>
     <script src="js/router.js"></script>
     <script src="js/models/table.js"></script>
+    <script src="js/controllers/tables_controller.js"></script>
   </body>
 </html>
