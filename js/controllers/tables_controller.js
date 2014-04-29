@@ -1,4 +1,4 @@
-Tables.TablesController = Ember.ArrayController.extend({
+App.TablesController = Ember.ArrayController.extend({
   count: function(){
     return this.filterBy('number').get('length');
   }.property('@each'),

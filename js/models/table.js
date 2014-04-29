@@ -1,8 +1,8 @@
-Tables.Table = DS.Model.extend({
+App.Table = DS.Model.extend({
   number: DS.attr('string')
 });
 
-Tables.Table.FIXTURES = [
+App.Table.FIXTURES = [
   {
     id: 1,
     number: '1'

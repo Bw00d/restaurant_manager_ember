@@ -1,3 +1,5 @@
-window.Tables = Ember.Application.create({LOG_TRANSITIONS: true});
+window.App = Ember.Application.create({LOG_TRANSITIONS: true});
 
-Tables.ApplicationAdapter = DS.FixtureAdapter.extend();
+App.ApplicationAdapter = DS.FixtureAdapter.extend({
+  namespace: 'tables'
+});

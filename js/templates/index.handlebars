@@ -1,0 +1,26 @@
+
+    <section id="table_selection">
+      <header>
+        <h1>Ordr</h1>
+        <button {{action "createTable" count}}>Add Table</button>
+        <hr>
+      </header>
+
+      <div id="table_numbers">
+        <header><h3>Tables</h3></header>
+        {{#each }}
+          <div class="table_location">{{number}}</div>
+        {{/each}}
+
+      </div>
+
+
+
+      <div id="register">
+        <header><h3>Select a table at left</h3></header>
+        <img src="glyphicons/png/glyphicons_000_glass.png">
+
+      </div>
+
+
+    </section>

@@ -6,8 +6,13 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <script type="text/x-handlebars" data-template-name="tables">
 
+    <script type="text/x-handlebars">
+      {{outlet}}
+    </script>
+
+
+  <script type="text/x-handlebars" data-template-name="index">
     <section id="table_selection">
       <header>
         <h1>Ordr</h1>
@@ -17,20 +22,29 @@
 
       <div id="table_numbers">
         <header><h3>Tables</h3></header>
-        {{#each }}
-          <div class="table_location">{{number}}</div>
+        {{#each controller}}
+          <div class="table_location">{{#link-to 'table' this}}{{number}}{{/link-to}}</div>
         {{/each}}
 
       </div>
 
 
+
       <div id="register">
         <header><h3>Select a table at left</h3></header>
+        {{outlet}}
+
       </div>
 
 
     </section>
-    </script>
+  </script>
+
+  <script type="text/x-handlebars" data-template-name="table">
+    <h4>Table {{number}}</h4>
+
+  </script>
+
     <script src="js/libs/jquery-1.10.2.min.js"></script>
     <script src="js/libs/handlebars-1.0.0.js"></script>
     <script src="js/libs/ember.js"></script>
@@ -39,5 +53,7 @@
     <script src="js/router.js"></script>
     <script src="js/models/table.js"></script>
     <script src="js/controllers/tables_controller.js"></script>
+    <script src="js/controllers/index_controller.js"></script>
+    <script src="js/models/item.js"></script>
   </body>
 </html>
