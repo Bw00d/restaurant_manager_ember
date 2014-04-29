@@ -1,1 +1,54 @@
-styles.css
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+  font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  line-height: 1.4em;
+  background: #eaeaea url('bg.png');
+  color: #4d4d4d;
+  width: 550px;
+  margin: 0 auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+#table_selection {
+  width: 100%;
+  margin: 0 auto;
+  border: 1px blue dashed;
+  height: 400px;
+}
+
+#table_numbers {
+  width: 39.5%;
+  border: 1px black dashed;
+  float: left;
+  margin: 0;
+  padding:
+}
+
+.table_location {
+  border: 1px orange dashed;
+  width: 49%;
+  float: left;
+  height: 50px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+#register {
+  width: 60%;
+  border: 1px green dashed;
+  float: left;
+  margin: 0;
+  height: 80%;
+}
+h3 {
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
