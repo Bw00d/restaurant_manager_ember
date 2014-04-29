@@ -20,25 +20,30 @@ body {
 #table_selection {
   width: 100%;
   margin: 0 auto;
-  border: 1px blue dashed;
   height: 400px;
+  background-color: white;
 }
 
 #table_numbers {
   width: 39.5%;
-  border: 1px black dashed;
   float: left;
   margin: 0;
-  padding:
+
 }
 
 .table_location {
-  border: 1px orange dashed;
   width: 49%;
   float: left;
   height: 50px;
   padding-top: 15px;
   text-align: center;
+  background-color: #ECECEC;
+  color: DeepSkyBlue;
+  font-weight: bold;
+  margin-left: 2px;
+  margin-bottom: 2px;
+  font-size: 1.4em;
+
 }
 
 #register {
